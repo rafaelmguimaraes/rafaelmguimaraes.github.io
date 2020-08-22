@@ -3,44 +3,98 @@
 	<head>
 		<title>Rafael, My GitHub Page</title>
 		<!-- link to main stylesheet 
-		<link rel="stylesheet" type="text/css" href="/css/main.css">-->
+        <link rel="stylesheet" type="text/css" href="/css/main.css">-->
+        <link href="https://fonts.googleapis.com/css2?family=Calistoga&family=Monoton&family=Quattrocento+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Amiko&display=swap" rel="stylesheet">
+        <style>
+            h1 {
+                font-family: 'Monoton', cursive;
+                font-size: 50px;
+                color: #14213d;
+                text-align: center;
+            }
+            h2 {
+                font-family: 'Quicksand', sans-serif;
+                color: #14213d;
+            }
+            h3 {
+                font-family: 'Quicksand', sans-serif;
+                color: #14213d;
+                text-align: center;
+            }
+            body {
+                background-color: #e5e5e5;
+            }
+            img {
+                border-radius: 10%;
+            }
+            p {
+                font-family: 'Rubik', sans-serif;
+                text-align: justify;
+                font-size: 1.2em;
+            }
+            .item-style {
+                font-family: 'Amiko', sans-serif;
+            }
+
+            .link-button {
+                background-color:#fca311;
+                padding: 10px 10px;
+                border-radius: 10%;
+                text-decoration: none;
+            }
+            .list-item-bigger {
+                font-size: 1.4em;
+            }
+            .list-item-big {
+                font-size: 1.2em;
+            }
+        </style>
 	</head>
 	<body>
-		<nav>
-    		<ul>
-        		<li><a href="#nome">Nome</a></li>
-                <li><a href="#descricao">Descrição</a></li>
-                <li><a href="#habilidade">Habilidades</a></li>
-                <li><a href="#blog">Blog</a></li>
-                <li><a href="#contato">Contatos</a></li>
-    		</ul>
-        </nav>
+        <a class="link-button" id="topo" href="#nome">Nome</a>
+        <a class="link-button" href="#descricao">Descrição</a>
+        <a class="link-button" href="#habilidade">Habilidades</a>
+        <a class="link-button" href="#blog">Blog</a>
+        <a class="link-button" href="#contato">Contatos</a>
+        <br>
         <h1 id="nome">Rafael Machado Guimarães</h1>
         <hr>
-        <img src="/images/RafaPhotoBW.JPG" height="300px" alt="Foto do rosto de Rafael em Preto em Branco"/>
+        <img width="600px" src="/images/RafaPhotoBW.JPG"  alt="Foto do rosto de Rafael em Preto em Branco"/>
         <hr>
-        <p id="descricao">Soteropolitano e residindo em <strong>Salvador-Ba</strong>, criado no sertão nordestino, <br>
-            mais precisamente entre a Bahia e Pernambuco, acredito que a educação é a ferramenta mais poderosa <br>
-            para nos entender como pessoa e em como podemos ter uma melhor relação consigo mesmo, <br>
-            dentro de uma socidedade e com o meio. Apesar de ter me enveredado pelas ciências exatas, <br>
-            <strong>graduando em Computação</strong> e me <strong>especializando em Engenharia de Software</strong> , e trabalhando nessa área <br>
-            desde 2003, sendo a maior parte dessa experiência liderando projetos de tecnologia no setor <br>
-            de engenharia industrial atendendo inúmeros países nas américas, foram os projetos que consegui <br>
-            realizar como voluntário em Ong’s que me mostraram a importãncia da colaboração social e de <br>
-            sermos <em>agentes da transformação que desejamos</em>.</p>
+        <h2 id="habilidade">Descrição:</h2>
+        <p id="descricao">Soteropolitano e residindo em <strong>Salvador-Ba</strong>, criado no sertão nordestino, 
+            mais precisamente entre a Bahia e Pernambuco, acredito que a educação é a ferramenta mais poderosa 
+            para nos entender como pessoa e em como podemos ter uma melhor relação consigo mesmo, 
+            dentro de uma socidedade e com o meio. Apesar de ter me enveredado pelas ciências exatas, 
+            <strong>graduando em Computação</strong> e me <strong>especializando em Engenharia de Software</strong> , e trabalhando nessa área 
+            desde 2003, sendo a maior parte dessa experiência liderando projetos de tecnologia no setor
+            de engenharia industrial atendendo inúmeros países nas américas, foram os projetos que consegui
+            realizar como voluntário em Ong’s que me mostraram a importãncia da colaboração social e de
+            sermos <strong><em>agentes da transformação que desejamos</em></strong>.</p>
         <hr>
         <h2 id="habilidade">Habilidades:</h2>
-        <ul>
-            <li><a href="http://operacaoarcoiris.lwsite.com.br/">Voluntário por 3 anos, como <strong>palhaço</strong>, na ONG Operação Arco-Íris</a></li>
-            <li><a href="https://www.jabrasil.org.br/ba">Voluntário por 2 anos, como <strong>facilitador</strong>, na ONG Junior Achivement Bahia</a></li>
-            <li><a href="https://www.projetoescolacidada.com.br/">Responsável pela Plataforma Digital do Projeto Escola Cidadã</a></li>
+        <ul class="item-style">
+            <li class="list-item-bigger"><a target="_blank" href="http://operacaoarcoiris.lwsite.com.br/">Voluntário por 3 anos, como <strong>palhaço</strong>, na ONG Operação Arco-Íris</a></li>
+            <li class="list-item-big"><a target="_blank" href="https://www.jabrasil.org.br/ba">Voluntário por 2 anos, como <strong>facilitador</strong>, na ONG Junior Achivement Bahia</a></li>
+            <li ><a target="_blank" href="https://www.projetoescolacidada.com.br/">Responsável pela Plataforma Digital do Projeto Escola Cidadã</a></li>
         </ul>
         <hr>
-        <h2 id="blog"><a target="_blank" href="https://porvir.org/">Porvir: o futuro se aprende. (recomendo este blog)</a></h2>        		
+        <h2 id="blog">Blogs que me inspiram:</h2>
+        <ul class="item-style">
+            <li><a target="_blank" href="https://www.eusoulivres.org/noticias/">Livres</a></li>
+            <li><a target="_blank" href="https://www.ok.org.br/noticias/">Open Knowledge</a></li>
+            <li><a target="_blank" href="https://www.youtube.com/user/hashtagsal">Hashtag Sal</a></li>
+        </ul>
         <hr>
-		<ul id="contato">
-        	<li><a href="mailto:rafaelmguimaraes@gmail.com">email</a></li>
-        	<li><a href="https://github.com/rafaelmguimaraes">github.com/rafaelmguimaraes</a></li>
-		</ul>
+        <h2 id="contato">Contatos:</h2>
+		<ul class="item-style" >
+        	<li><a href="mailto:rafaelmguimaraes@gmail.com">Envie-me um email.</a></li>
+        	<li><a target="_blank" href="https://github.com/rafaelmguimaraes">Visite meu repositório github.com/rafaelmguimaraes</a></li>
+        </ul>
+        <hr>
+        <a class="link-button" href="#topo">Voltar para o topo</a>
 	</body>
 </html>
