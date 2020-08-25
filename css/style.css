@@ -1,0 +1,42 @@
+h1 {
+    font-family: 'Monoton', cursive;
+    font-size: 50px;
+    color: #14213d;
+    text-align: center;
+}
+h2 {
+    font-family: 'Quicksand', sans-serif;
+    color: #14213d;
+}
+h3 {
+    font-family: 'Quicksand', sans-serif;
+    color: #14213d;
+    text-align: center;
+}
+body {
+    background-color: #e5e5e5;
+}
+img {
+    border-radius: 10%;
+}
+p {
+    font-family: 'Rubik', sans-serif;
+    text-align: justify;
+    font-size: 1.2em;
+}
+.item-style {
+    font-family: 'Amiko', sans-serif;
+}
+
+.link-button {
+    background-color:#fca311;
+    padding: 10px 10px;
+    border-radius: 10%;
+    text-decoration: none;
+}
+.list-item-bigger {
+    font-size: 1.4em;
+}
+.list-item-big {
+    font-size: 1.2em;
+}
