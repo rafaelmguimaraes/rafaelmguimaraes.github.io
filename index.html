@@ -1,60 +1,98 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>Rafael, My GitHub Page</title>
-        <!-- link to main stylesheet -->
-        <link rel="stylesheet" type="text/css" href="/css/reset.css">
-        <link rel="stylesheet" type="text/css" href="/css/style.css">
-	</head>
-	<body>
-        <header class="header">
-            <img class="header-logo" src="images/github-icon.png" alt="Logo do GitHub">
-            <h1>Rafael - My GitHub Page</h1>
-            <img class="header-photo" src="images/RafaPhotoBW.JPG" alt="Foto do Rafa Sorrindo em Preto e Branco">
-        </header>
-        <article class="article-left">
-            <a href="https://www.betrybe.com/" target="_blank"><img src="images/trybe-logo.png" alt="Logo da Trybe"></a>
-            <h2>Portfólio em construção:</h2>
-            <ul class="article-list">
-                <li>
-                    <a href="https://github.com/rafaelmguimaraes/trybe-exercises" >
-                        <p><img class="aricle-icon" src="images/rocket-icon.png" ></p>
-                        <p>Repositório de Exercícios</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://github.com/rafaelmguimaraes/trybe-projects" >
-                        <p><img class="aricle-icon" src="images/task-icon.png"></p>
-                        <p>Repositório de Projetos</p>
-                    </a>
-                </li>
-            </ul>
-            
-            
-        </article>
-        <article class="article-right">
-            <a href="https://www.betrybe.com/" target="_blank"><img src="images/trybe-logo.png" alt="Logo da Trybe"></a>
-            <h2>Habilidades em construção:</h2>
-            <ul class="article-list">
-                <li>
-                    <p><img class="aricle-icon" src="images/html-icon.png" ></p>
-                    <p>HTML</p>
-                </li>
-                <li>
-                    <p><img class="aricle-icon" src="images/css-icon.png"></p>
-                    <p>CSS</p>
-                </li>
-                <li>
-                    <p><img class="aricle-icon" src="images/js-icon.png"></p>
-                    <p>JavaScript</p>
-                </li>
-            </ul>
-        </article>
-        <footer class="footer">
-            <a href="https://wa.me/5571981444521" target="_blank"><img class="icon-social" src="images/whatsapp-icon-bw.png" alt="Logo do WhatsApp"></a>
-            <a href="https://twitter.com/rafamguimaraes" target="_blank"><img class="icon-social" src="images/twitter-icon-bw.png" alt="Logo do Twitter"></a>
-            <a href="https://www.facebook.com/rafaelmachadoguimaraes" target="_blank"><img class="icon-social" src="images/facebook-icon-bw.png" alt="Logo do Facebook"></a>
-            <a href="https://www.linkedin.com/in/rafaelmguimaraes" target="_blank"><img class="icon-social" src="images/linkedin-icon-bw.png" alt="Logo do LinkedIn"></a>
-        </footer>
-	</body>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My GitHub Page</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://kit.fontawesome.com/19ce8a45e0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="wrapper">
+    <aside class="sidebar">
+      <header>
+        <div class="about">
+          <div class="cover-author-image">
+            <a href="https://rafaelmguimaraes.github.io/"><img src="/images/rafael-guimaraes.jpg" alt="Foto do Rosto de Rafael Machado Guimarães"></a>
+          </div>
+          <div class="author-name">Rafael Machado Guimarães</div>
+          <p>I'm a digital nomad, studying new web development technologies and data science.</p>
+        </div>
+      </header>
+      <footer>
+        <section class="contact">
+          <h3 class="contact-title">Contact me</h3>
+          <ul>
+            <li class="whats"><a href="https://api.whatsapp.com/send?phone=5571999444521" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+            <li class="github"><a href="http://github.com/rafaelmguimaraes" target="_blank"><i class="fa fa-github"></i></a></li>
+            <li class="linkedin"><a href="https://in.linkedin.com/in/rafaelmguimaraes" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+            <li class="email"><a href="mailto:rafaelmguimaraes@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
+            <li class="blog"><a href="https://rafaelmguimaraes.github.io/blog/"><i class="fas fa-blog"></i></a></li>
+          </ul>
+        </section> 
+        <div class="copyright">
+          <p>2020 © Rafael M Guimarães</p>
+        </div>
+      </footer>
+    </aside>
+    <div class="content-box">
+      <div class="content-header-row">
+        <h2>Learning:</h2>
+      </div>
+      <div class="content-row">
+        <a class="row-thumbnail" style="background-image: url(/images/trybe-logo.png)" href="https://www.betrybe.com/"></a>
+        <div class="row-content">
+          <div class="row-content-block">
+            <h3>Trybe</h3>
+            <p><strong>Web Full Stack Developer Course</strong> that the program has more than <strong>1,500 hours</strong> of classroom and online classes and covers front-end, back-end, computer science, software engineering, agile methodologies, and soft skills.</p>
+          </div>
+          <div class="row-content-block">
+            <h3>Technologies</h3>
+            <div class="tech-grid">
+              <i class="fab fa-linux"></i>
+              <i class="fab fa-js"></i>
+              <i class="fab fa-css3-alt"></i>
+              <i class="fab fa-html5"></i>
+              <i class="fab fa-react"></i>
+            </div>
+          </div>
+          <div class="row-content-block">
+            <h3>Repositories</h3>
+            <div class="repo">
+              <a target="_blank" href="https://github.com/rafaelmguimaraes/trybe-exercises"><i class="fab fa-github"> Exercises </i></a>
+            </div>
+            <div class="repo">
+              <a target="_blank" href="https://github.com/rafaelmguimaraes/trybe-projects"><i class="fab fa-github"> Projects </i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="content-row">
+        <a class="row-thumbnail" style="background-image: url(/images/FreeCodeCamp_logo.png); background-color: black;" href="https://www.freecodecamp.org/"></a>
+        <div class="row-content">
+          <div class="row-content-block">
+            <h3>FreeCodeCamp</h3>
+            <p>Free programming school with approximately <strong>300 hours </strong> each, with many exercises to practice, and build projects to obtain the certificate.</p>
+          </div>
+          <div class="row-content-block">
+            <h3>Technologies</h3>
+            <div class="tech-grid">
+              <i class="fab fa-js"></i>
+              <i class="fab fa-css3-alt"></i>
+              <i class="fab fa-html5"></i>
+              <i class="fab fa-python"></i>
+            </div>
+          </div>
+          <div class="row-content-block">
+            <h3>Repositories</h3>
+            <div class="repo">
+              <a target="_blank" href="https://repl.it/@RafaelMachado4/"><img src="images/Repl.it_logo.png"/> <span>Python</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
 </html>
